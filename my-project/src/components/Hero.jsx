@@ -2,7 +2,7 @@ import Button from "./Button";
 
 function Hero() {
   return (
-    <div className="h-screen bg-home-hero relative bg-fit	 text-white">
+    <div className=" bg-home-hero relative bg-fit	 text-white">
       <div className="mt-6">
         <h2 className="text-4xl">Scooter sharing made simple</h2>
         <p>
@@ -12,7 +12,7 @@ function Hero() {
         </p>
       </div>
 
-      <img
+      {/* <img
         className="absolute left-0 top-60"
         src="/src/assets/patterns/line.svg"
         alt="line"
@@ -21,7 +21,7 @@ function Hero() {
         className="absolute left-60 top-60"
         src="/src/assets/patterns/right-arrow.svg"
         alt="line"
-      />
+      /> */}
       <Button>Get Scootin</Button>
     </div>
   );

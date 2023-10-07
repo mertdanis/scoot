@@ -6,6 +6,7 @@ export default {
       colors: {
         yellow: "#FCB72B",
         dark_navy: "#495567",
+        footer_bottom: "#333A44",
         dim_grey: "#939CAA",
         light_grey: "#E5ECF4",
         snow: " #F2F5F9",
