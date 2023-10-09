@@ -1,9 +1,15 @@
-import React from "react";
+import bg1 from "../assets/imgs/about-hero-desktop.jpg";
 
 function PageTitle({ title, page }) {
   return (
-    <div className={`page ? === 'test' `}>
-      <h2 className="bg-red-500 p-3">{title}</h2>
+    <div
+      style={{
+        width: "100%",
+        height: "200px",
+        backgroundImage: `url(${bg1})`,
+      }}
+    >
+      <h1 className="text-h1 text-white py-[72px] px-[165px]">{title}</h1>
     </div>
   );
 }

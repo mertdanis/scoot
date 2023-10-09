@@ -1,6 +1,6 @@
 function FooterTop() {
   return (
-    <div className="px-[165px] relative py-[102px] flex items-center justify-between w-screen bg-dark_navy h-[300px]">
+    <div className="px-[165px] relative py-[102px] flex items-center justify-between  bg-dark_navy h-[300px]">
       <div className="bg-dark_navy">
         <h2 className="text-h2 text-white w-[60%]">
           Sign up and Scoot off today

@@ -4,7 +4,7 @@ import ContentRow from "../components/ContentRow";
 
 function Home() {
   return (
-    <div className="px-[165px]">
+    <div>
       <Hero />
       <div className="flex gap-[25px] py-[100px]">
         <ContentRow
