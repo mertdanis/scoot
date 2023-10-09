@@ -9,7 +9,7 @@ import Button from "../components/Button";
 function Header() {
   return (
     <nav>
-      <ul className="flex px-[169px] py-[35px] justify-between items-center  text-white  ">
+      <ul className="flex  py-[35px] justify-between items-center  text-white  ">
         <div className="flex items-center ">
           <NavLink className="mr-[50px]">
             <svg

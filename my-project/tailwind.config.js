@@ -19,12 +19,12 @@ export default {
         "lexend-deca": "Lexend Deca, sans-serif",
       },
 
-      backgroundImage: {
-        "home-hero": "url('/src/assets/imgs/home-hero-desktop.jpg')",
-        "about-hero": "url('/src/assets/imgs/about-hero-desktop.jpg')",
-        "location-careers-hero":
-          "url('/src/assets/imgs/careers-location-hero-mobile.jpg')",
-      },
+      // backgroundImage: {
+      //   "home-hero": "url('/src/assets/imgs/home-hero-desktop.jpg')",
+      //   "about-hero": "url('/src/assets/imgs/about-hero-desktop.jpg')",
+      //   "location-careers-hero":
+      //     "url('/src/assets/imgs/careers-location-hero-mobile.jpg')",
+      // },
 
       fontSize: {
         h1: "56px",
