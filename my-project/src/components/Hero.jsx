@@ -34,7 +34,7 @@ function Hero() {
         alt="line"
       />
       <img
-        className="absolute left-[705px] top-[354px]"
+        className="absolute left-[755px] top-[354px]"
         src="/src/assets/patterns/right-arrow.svg"
         alt="line"
       />

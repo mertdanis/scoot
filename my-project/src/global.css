@@ -5,6 +5,9 @@
 
 p {
   font-family: "Lexend Deca", sans-serif;
+  line-height: 25px;
+  font-weight: 400;
+  color: #495567;
 }
 
 h1,
@@ -15,4 +18,5 @@ h5,
 h6 {
   font-family: "Space Mono", monospace;
   font-weight: 700;
+  color: #495567;
 }
