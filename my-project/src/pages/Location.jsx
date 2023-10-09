@@ -7,7 +7,7 @@ import LocationCard from "../components/LocationCard";
 function location() {
   return (
     <div className="flex flex-col justify-center items-center">
-      <PageTitle title={"Location"} />
+      <PageTitle title={"Location"} page={"location"} />
       <div className="relative">
         <img className="" src="/src/assets/imgs/world-map-desktop.png" alt="" />
         <LocationCard className={` top-[71px] left-[147px]`}>

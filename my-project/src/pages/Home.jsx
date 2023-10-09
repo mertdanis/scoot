@@ -1,5 +1,5 @@
 import Hero from "../components/Hero";
-import ContentCol from "../components/ContentCol";
+import ContentCol from "../components/ContentDirection";
 import ContentRow from "../components/ContentRow";
 
 function Home() {

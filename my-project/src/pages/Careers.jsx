@@ -3,7 +3,7 @@ import PageTitle from "../components/PageTitle";
 function careers() {
   return (
     <div>
-      <PageTitle title={"Careers"} />
+      <PageTitle title={"Careers"} page={"careers"} />
     </div>
   );
 }
