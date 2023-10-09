@@ -6,7 +6,7 @@ import FooterBottom from "../components/FooterBottom";
 
 function Layout() {
   return (
-    <div className="px-[165px] overflow-hidden">
+    <div className="">
       <Header />
       <Outlet />
       <FooterTop />

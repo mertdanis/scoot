@@ -32,7 +32,11 @@ const router = createBrowserRouter([
 ]);
 
 function App() {
-  return <RouterProvider router={router} />;
+  return (
+    <div className="px-[165px]">
+      <RouterProvider router={router} />
+    </div>
+  );
 }
 
 export default App;
