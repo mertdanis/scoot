@@ -2,7 +2,7 @@ import React from "react";
 
 function ContentRow({ title, content, img }) {
   return (
-    <div>
+    <div className=" ">
       {img === "group-8" ? (
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -71,7 +71,7 @@ function ContentRow({ title, content, img }) {
       )}
 
       <h4 className=" text-h4 py-[40px]">{title}</h4>
-      <p className=" w-[75%] ">{content}</p>
+      <p className="w-[85%]  ">{content}</p>
     </div>
   );
 }

@@ -7,7 +7,7 @@ function Home() {
     <div>
       <Hero />
 
-      <div className="flex  py-[100px]">
+      <div className="flex px-[165px] py-[100px] gap-[30px]">
         <ContentRow
           title={"Locate with app"}
           content={

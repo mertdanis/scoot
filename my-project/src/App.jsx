@@ -33,7 +33,7 @@ const router = createBrowserRouter([
 
 function App() {
   return (
-    <div className="px-[165px]">
+    <div className="overflow-hidden ">
       <RouterProvider router={router} />
     </div>
   );
