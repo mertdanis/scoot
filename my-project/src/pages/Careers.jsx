@@ -2,6 +2,7 @@ import SectionTitle from "../components/MainTitle";
 import PageTitle from "../components/PageTitle";
 import ContentCol from "../components/ContentCol";
 import ContentDirection from "../components/ContentDirection";
+import Jobs from "../components/Jobs";
 
 function Careers() {
   return (
@@ -84,6 +85,29 @@ function Careers() {
             <circle cx="48" cy="48" r="48" fill="#FCB72B" />
           </svg>
         </ContentCol>
+      </div>
+      <div className="my-[50px]">
+        <Jobs
+          position={"General Manager"}
+          location={"Jakarta, Indonesia"}
+        ></Jobs>
+        <Jobs position={"UI/UX Designer"} location={"Yokohama, Japan"}></Jobs>
+        <Jobs
+          position={"Blog Content Copywriter"}
+          location={"New York, United States"}
+        ></Jobs>
+        <Jobs
+          position={"Graphic Designer"}
+          location={"New York, United States"}
+        ></Jobs>
+        <Jobs
+          position={"Fleet Supervisor"}
+          location={"Jakarta, Indonesia"}
+        ></Jobs>
+        <Jobs
+          position={"UX Analyst"}
+          location={"London, United Kingdom"}
+        ></Jobs>
       </div>
     </div>
   );

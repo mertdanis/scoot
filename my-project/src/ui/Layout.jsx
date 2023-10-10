@@ -8,7 +8,9 @@ function Layout() {
   return (
     <div className="">
       <Header />
-      <Outlet />
+      <main className="px-[165px] ">
+        <Outlet />
+      </main>
       <FooterTop />
       <FooterBottom />
     </div>

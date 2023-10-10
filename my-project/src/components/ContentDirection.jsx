@@ -1,6 +1,6 @@
 import Button from "./Button";
 
-function ContentDirection({ title, content, direction, img, children }) {
+function ContentDirection({ title, content, direction, children }) {
   return (
     <>
       {direction === "left" ? (

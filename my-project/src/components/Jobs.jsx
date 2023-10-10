@@ -3,9 +3,9 @@ import Button from "./Button";
 
 function Jobs({ position, location }) {
   return (
-    <div className="flex justify-between p-3">
+    <div className="flex items-center justify-between p-5 bg-snow mb-6 ">
       <div className="flex flex-col gap-3">
-        <p>{position}</p>
+        <h4 className="text-h4 text-dark_navy">{position}</h4>
         <p>{location}</p>
       </div>
       <Button>Apply</Button>
