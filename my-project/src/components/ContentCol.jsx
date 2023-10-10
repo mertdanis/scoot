@@ -5,7 +5,7 @@ function ContentCol({ title, content, children }) {
     <div className="flex flex-col gap-6  items-center ">
       <div className="relative">{children}</div>
       <h4 className="text-h4 pt-[32px]">{title}</h4>
-      <p className="">{content}</p>
+      <p className="w-[70%] text-center">{content}</p>
     </div>
   );
 }
