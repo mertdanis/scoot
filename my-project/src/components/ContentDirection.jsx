@@ -1,6 +1,6 @@
 import Button from "./Button";
 
-function ContentDirection({ title, content, direction, img }) {
+function ContentDirection({ title, content, direction, img, children }) {
   return (
     <>
       {direction === "left" ? (
@@ -13,7 +13,8 @@ function ContentDirection({ title, content, direction, img }) {
                 <Button>Learn More</Button>
               </div>
             </div>
-            {img === "1" ? (
+            {children}
+            {/* {img === "1" ? (
               <img
                 className="absolute right-0 bottom-[38px]"
                 src="/src/assets/patterns/left-downward-arrow.svg"
@@ -41,12 +42,14 @@ function ContentDirection({ title, content, direction, img }) {
               <img src="/src/assets/imgs/about-hero-mobile.jpg" />
             ) : (
               ""
-            )}
+            )} */}
           </div>
         </div>
       ) : (
         <div className="flex justify-between   relative    items-center">
-          {img === "2" ? (
+          {children}
+
+          {/* {img === "2" ? (
             <img
               className="rounded-full "
               src="/src/assets/imgs/near-you.jpg"
@@ -62,7 +65,7 @@ function ContentDirection({ title, content, direction, img }) {
             />
           ) : (
             ""
-          )}
+          )} */}
 
           <div className="flex flex-col w-[30%]  gap-6">
             <h2 className=" text-h2 ">{title}</h2>

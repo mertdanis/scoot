@@ -38,7 +38,9 @@ function Home() {
             "The Scoot app is available with riding telemetry. This means it can show you your average speed, how long you've been using the scooter, your traveling distance, and many more things all in an easy to use app."
           }
           img={"1"}
-        />
+        >
+          <img className="rounded-full" src="/src/assets/imgs/telemetry.jpg" />
+        </ContentDirection>
         <ContentDirection
           direction={"right"}
           img={"2"}
@@ -46,7 +48,9 @@ function Home() {
           content={
             "Scoot is available in 4 major cities so far. We’re expanding rapidly, so be sure to let us know if you want to see us in your hometown. We’re aiming to let our scooters loose on 23 cities over the coming year."
           }
-        />
+        >
+          <img className="rounded-full" src="/src/assets/imgs/near-you.jpg" />
+        </ContentDirection>
         <ContentDirection
           direction={"left"}
           img={"3"}
@@ -54,7 +58,9 @@ function Home() {
           content={
             "Our payment is as easy as one two three. We accept most credit cards and debit cards. You can also link your PayPal account inside the app. Need to pay later? No worries! You can defer payment for up to a month."
           }
-        />
+        >
+          <img className="rounded-full" src="/src/assets/imgs/payments.jpg" />
+        </ContentDirection>
       </div>
     </div>
   );

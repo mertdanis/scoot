@@ -8,22 +8,30 @@ function about() {
   return (
     <div>
       <PageTitle title={"About"} page={"about"} />
+
       <ContentDirection
         direction={"left"}
         title={"Mobility for the digital era"}
         content={
           "Getting around should be simple (and even fun!) for everyone. We embrace technology to provide low cost, smart access to scooters at your fingertips."
         }
-        img={"4"}
-      />
+      >
+        <img className="rounded-full" src="/src/assets/imgs/digital-era.jpg" />
+      </ContentDirection>
+
       <ContentDirection
         title={"Better urban living"}
         content={
           "We’re helping connect cities and bring people closer together. Our scooters are also fully-electric and we offset the minimal carbon footprint for each ride."
         }
         direction={"right"}
-        img={"5"}
-      />
+      >
+        <img
+          className="rounded-full"
+          src="/src/assets/imgs/better-living.jpg"
+        />
+      </ContentDirection>
+
       <SectionTitle title={"Our Values"} />
       <div className="flex">
         <ContentCol
