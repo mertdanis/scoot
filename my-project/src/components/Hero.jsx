@@ -11,12 +11,12 @@ function Hero() {
       }}
       className=" relative 	bg-no-repeat bg-cover "
     >
-      <div className="flex flex-col gap-6 py-[173px] ">
-        <h1 className="text-h1 w-[60%] leading-[56px] px-[165px]">
+      <div className="flex flex-col gap-6 py-[173px]  ">
+        <h1 className="text-h1 w-[50%] leading-[56px] px-[165px] text-white">
           Scooter sharing made simple
         </h1>
         <div className="px-[260px]">
-          <p className="w-[44%] leading-[25px]">
+          <p className="w-[32%] leading-[25px] text-white mt-3">
             Scoot takes the hassle out of urban mobility. Our bikes are placed
             in convenient locations in each of our cities. Use our app to locate
             the nearest bike, unlock it with a tap, and you’re away!

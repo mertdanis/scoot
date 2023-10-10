@@ -4,8 +4,8 @@ function ContentDirection({ title, content, direction, img }) {
   return (
     <>
       {direction === "left" ? (
-        <div className="flex my-[50px] relative    items-center">
-          <div className="flex  my-[50px] ">
+        <div className="flex  relative ">
+          <div className="flex  items-center ">
             <div className="flex flex-col gap-6">
               <h2 className=" text-h2 w-[45%]">{title}</h2>
               <p className="w-[45%]">{content}</p>
@@ -45,9 +45,12 @@ function ContentDirection({ title, content, direction, img }) {
           </div>
         </div>
       ) : (
-        <div className="flex relative    items-center">
+        <div className="flex justify-between   relative    items-center">
           {img === "2" ? (
-            <img className="rounded-full" src="/src/assets/imgs/near-you.jpg" />
+            <img
+              className="rounded-full "
+              src="/src/assets/imgs/near-you.jpg"
+            />
           ) : (
             ""
           )}
@@ -60,9 +63,10 @@ function ContentDirection({ title, content, direction, img }) {
           ) : (
             ""
           )}
-          <div className="flex flex-col   gap-6">
-            <h2 className=" text-h2 w-[45%]">{title}</h2>
-            <p className="w-[45%]">{content}</p>
+
+          <div className="flex flex-col w-[30%]  gap-6">
+            <h2 className=" text-h2 ">{title}</h2>
+            <p className="">{content}</p>
             <div className="w-[180px]">
               <Button>Learn More</Button>
             </div>
