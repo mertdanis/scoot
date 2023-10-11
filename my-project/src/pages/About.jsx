@@ -19,8 +19,12 @@ function about() {
           }
         >
           <img
-            className="rounded-full"
+            className="rounded-full relative"
             src="/src/assets/imgs/digital-era.jpg"
+          />
+          <img
+            className="absolute bottom-[38px] right-0"
+            src="/src/assets/patterns/left-upward-arrow.svg"
           />
         </ContentDirection>
 
@@ -32,8 +36,12 @@ function about() {
           direction={"right"}
         >
           <img
-            className="rounded-full"
+            className="rounded-full relative"
             src="/src/assets/imgs/better-living.jpg"
+          />
+          <img
+            className="absolute top-[60px] left-0"
+            src="/src/assets/patterns/right-arrow.svg"
           />
         </ContentDirection>
       </div>

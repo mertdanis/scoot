@@ -39,6 +39,10 @@ function Home() {
           }
         >
           <img className="rounded-full" src="/src/assets/imgs/telemetry.jpg" />
+          <img
+            className="absolute right-0 bottom-[38px]"
+            src="/src/assets/patterns/left-downward-arrow.svg"
+          />{" "}
         </ContentDirection>
         <ContentDirection
           direction={"right"}
@@ -48,6 +52,11 @@ function Home() {
           }
         >
           <img className="rounded-full" src="/src/assets/imgs/near-you.jpg" />
+          <img
+            className="absolute top-0 -left-[260px]"
+            src="/src/assets/patterns/right-arrow.svg"
+            alt=""
+          />
         </ContentDirection>
         <ContentDirection
           direction={"left"}
@@ -57,6 +66,11 @@ function Home() {
           }
         >
           <img className="rounded-full" src="/src/assets/imgs/payments.jpg" />
+          <img
+            className="absolute -right-[430px] bottom-[282px]"
+            src="/src/assets/patterns/left-downward-arrow.svg"
+            alt=""
+          />
         </ContentDirection>
       </div>
     </div>

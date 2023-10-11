@@ -47,7 +47,7 @@ function Accordion({ section }) {
         <div className="flex items-center justify-between">
           <h4 className="text-h4">{question.title}</h4>
           <div className="cursor-pointer" onClick={() => setselectedIndex(i)}>
-            {isOpen === true ? (
+            {selectedIndex === true ? (
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="18"

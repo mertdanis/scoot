@@ -10,13 +10,19 @@ function Careers() {
       <PageTitle title={"Careers"} page={"careers"} />
       <ContentDirection
         direction={"left"}
-        img={"3"}
-        title={"Easy to use riding telemetry"}
+        title={"Care to join our mission?"}
         content={
-          "Our payment is as easy as one two three. We accept most credit cards and debit cards. You can also link your PayPal account inside the app. Need to pay later? No worries! You can defer payment for up to a month."
+          "We’re always looking for ambitious individuals to help us on our journey. If you’re passionate about our mission to provide clean, accessible transport to improve urban living we want to hear from you!"
         }
       >
-        <img className="rounded-full" src="/src/assets/imgs/payments.jpg" />
+        <img
+          className="relative rounded-full"
+          src="/src/assets/imgs/join-us.jpg"
+        />
+        <img
+          className="absolute bottom-0 right-0"
+          src="/src/assets/patterns/left-downward-arrow.svg"
+        />
       </ContentDirection>
       <SectionTitle>Why Join us?</SectionTitle>
       <div className="flex">
