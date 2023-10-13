@@ -24,7 +24,7 @@ function Careers() {
           src="/src/assets/patterns/left-downward-arrow.svg"
         />
       </ContentDirection>
-      <SectionTitle>Why Join us?</SectionTitle>
+      <SectionTitle className={"bg-black"}>Why Join us?</SectionTitle>
       <div className="flex">
         <ContentCol
           title={"Our tech"}
@@ -93,6 +93,8 @@ function Careers() {
         </ContentCol>
       </div>
       <div className="my-[50px]">
+        <SectionTitle className={"bg-black"}>Why Join us?</SectionTitle>
+
         <Jobs
           position={"General Manager"}
           location={"Jakarta, Indonesia"}

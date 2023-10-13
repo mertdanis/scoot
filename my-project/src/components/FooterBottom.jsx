@@ -30,10 +30,10 @@ function FooterBottom() {
         </ul>
       </div>
       <div className="flex items-center gap-6 h-[24px]">
-        <a href="">
+        <a href="#">
           <img src="/src/assets/icons/facebook.svg" alt="facebook-logo" />
         </a>
-        <a href="">
+        <a href="#">
           <img src="/src/assets/icons/twitter.svg" alt="twitter-logo" />
         </a>
         <a href="">

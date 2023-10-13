@@ -40,7 +40,7 @@ function Home() {
         >
           <img className="rounded-full" src="/src/assets/imgs/telemetry.jpg" />
           <img
-            className="absolute right-0 bottom-[38px]"
+            className="absolute -right-[200px] bottom-[38px]"
             src="/src/assets/patterns/left-downward-arrow.svg"
           />{" "}
         </ContentDirection>
@@ -53,7 +53,7 @@ function Home() {
         >
           <img className="rounded-full" src="/src/assets/imgs/near-you.jpg" />
           <img
-            className="absolute top-0 -left-[260px]"
+            className="absolute top-0 -left-[200px]"
             src="/src/assets/patterns/right-arrow.svg"
             alt=""
           />

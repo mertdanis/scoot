@@ -1,8 +1,8 @@
 import React from "react";
 
-function LocationCard({ location, className }) {
+function LocationCard({ className, children }) {
   return (
-    <div className={`absolute  ${className}`}>
+    <div className={` absolute   ${className}`}>
       <svg
         xmlns="http://www.w3.org/2000/svg"
         width="189"
@@ -17,7 +17,10 @@ function LocationCard({ location, className }) {
           fill="#FCB72B"
         />
       </svg>
-      <p className=""> {location}</p>
+      <h4 className="text-h4 absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2   ">
+        {" "}
+        {children}
+      </h4>
     </div>
   );
 }
