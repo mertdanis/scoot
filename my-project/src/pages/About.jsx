@@ -10,20 +10,21 @@ function about() {
     <div>
       <PageTitle title={"About"} page={"about"} />
 
-      <div className="my-[120px]">
+      <div className="my-[70px] flex flex-col gap-[70px]">
         <ContentDirection
           direction={"left"}
           title={"Mobility for the digital era"}
           content={
             "Getting around should be simple (and even fun!) for everyone. We embrace technology to provide low cost, smart access to scooters at your fingertips."
           }
+          button={false}
         >
           <img
             className="rounded-full relative"
             src="/src/assets/imgs/digital-era.jpg"
           />
           <img
-            className="absolute bottom-[38px] right-0"
+            className="absolute bottom-[38px] -right-[200px]"
             src="/src/assets/patterns/left-upward-arrow.svg"
           />
         </ContentDirection>
@@ -34,13 +35,14 @@ function about() {
             "We’re helping connect cities and bring people closer together. Our scooters are also fully-electric and we offset the minimal carbon footprint for each ride."
           }
           direction={"right"}
+          button={false}
         >
           <img
             className="rounded-full relative"
             src="/src/assets/imgs/better-living.jpg"
           />
           <img
-            className="absolute top-[60px] left-0"
+            className="absolute top-[60px] -left-[200px]"
             src="/src/assets/patterns/right-arrow.svg"
           />
         </ContentDirection>
@@ -119,14 +121,14 @@ function about() {
 
       <div className="my-[50px]">
         <SectionTitle title={"FAQs"} />
-        <div className="flex flex-col  items-start">
-          <div className="flex gap-[150px]">
+        <div className="flex flex-col  items-start gap-[50px] ">
+          <div className="flex gap-[250px] ">
             <SectionTitle title={"How it works"} />
             <div className="">
               <Accordion section={"1"} />
             </div>
           </div>
-          <div className="flex gap-[50px]">
+          <div className="flex gap-[250px]">
             <SectionTitle title={"Safe driving"} />
             <div className="">
               <Accordion section={"2"} />

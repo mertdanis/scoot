@@ -8,23 +8,26 @@ function Careers() {
   return (
     <div>
       <PageTitle title={"Careers"} page={"careers"} />
-      <ContentDirection
-        direction={"left"}
-        title={"Care to join our mission?"}
-        content={
-          "We’re always looking for ambitious individuals to help us on our journey. If you’re passionate about our mission to provide clean, accessible transport to improve urban living we want to hear from you!"
-        }
-      >
-        <img
-          className="relative rounded-full"
-          src="/src/assets/imgs/join-us.jpg"
-        />
-        <img
-          className="absolute bottom-0 right-0"
-          src="/src/assets/patterns/left-downward-arrow.svg"
-        />
-      </ContentDirection>
-      <SectionTitle className={"bg-black"}>Why Join us?</SectionTitle>
+      <div className="my-[70px]">
+        <ContentDirection
+          direction={"left"}
+          title={"Care to join our mission?"}
+          content={
+            "We’re always looking for ambitious individuals to help us on our journey. If you’re passionate about our mission to provide clean, accessible transport to improve urban living we want to hear from you!"
+          }
+        >
+          <img
+            className="relative rounded-full"
+            src="/src/assets/imgs/join-us.jpg"
+          />
+          <img
+            className="absolute bottom-0 -right-[200px]"
+            src="/src/assets/patterns/left-downward-arrow.svg"
+          />
+        </ContentDirection>
+      </div>
+      <SectionTitle className={"mb-[80px]"} title={"Why join us?"} />
+
       <div className="flex">
         <ContentCol
           title={"Our tech"}
@@ -93,8 +96,6 @@ function Careers() {
         </ContentCol>
       </div>
       <div className="my-[50px]">
-        <SectionTitle className={"bg-black"}>Why Join us?</SectionTitle>
-
         <Jobs
           position={"General Manager"}
           location={"Jakarta, Indonesia"}
