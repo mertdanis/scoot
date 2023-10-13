@@ -20,3 +20,8 @@ h6 {
   font-weight: 700;
   color: #495567;
 }
+
+svg text {
+  text-anchor: middle;
+  dominant-baseline: middle;
+}
