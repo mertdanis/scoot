@@ -49,6 +49,19 @@ function Careers() {
             className="absolute top-[190px] left-[70px]"
           >
             <circle cx="48" cy="48" r="48" fill="#FCB72B" />
+            <g>
+              <text
+                x="50%"
+                y="50%"
+                text-anchor="middle"
+                fill="#495567"
+                dy="5px"
+                fontSize={"24px"}
+                fontWeight={"700"}
+              >
+                01
+              </text>
+            </g>
           </svg>
         </ContentCol>
         <ContentCol
@@ -70,6 +83,19 @@ function Careers() {
             className="absolute top-[190px] left-[70px]"
           >
             <circle cx="48" cy="48" r="48" fill="#FCB72B" />
+            <g>
+              <text
+                x="50%"
+                y="50%"
+                text-anchor="middle"
+                fill="#495567"
+                dy="5px"
+                fontSize={"24px"}
+                fontWeight={"700"}
+              >
+                02
+              </text>
+            </g>
           </svg>
         </ContentCol>
         <ContentCol
@@ -92,6 +118,19 @@ function Careers() {
             className="absolute top-[190px] left-[70px]"
           >
             <circle cx="48" cy="48" r="48" fill="#FCB72B" />
+            <g>
+              <text
+                x="50%"
+                y="50%"
+                text-anchor="middle"
+                fill="#495567"
+                dy="5px"
+                fontSize={"24px"}
+                fontWeight={"700"}
+              >
+                03
+              </text>
+            </g>
           </svg>
         </ContentCol>
       </div>

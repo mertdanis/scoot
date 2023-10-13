@@ -27,7 +27,7 @@ function location() {
         </LocationCard>
       </div>
 
-      <div className="flex  justify-center gap-6 my-[50px] items-center ">
+      <div className="flex  justify-center gap-[70px] my-[50px] items-center ">
         <h2 className="text-h2 w-[22%]">Your city not listed?</h2>
         <p className="w-[30%] ">
           If you’d like to see Scoot in your hometown, be sure to let us know.
