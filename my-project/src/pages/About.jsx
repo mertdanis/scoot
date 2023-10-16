@@ -162,13 +162,13 @@ function about() {
         <div className="flex flex-col  items-start gap-[50px] ">
           <div className="flex gap-[250px] ">
             <SectionTitle title={"How it works"} />
-            <div className="">
+            <div>
               <Accordion section={"1"} />
             </div>
           </div>
           <div className="flex gap-[250px]">
             <SectionTitle title={"Safe driving"} />
-            <div className="">
+            <div>
               <Accordion section={"2"} />
             </div>
           </div>
