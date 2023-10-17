@@ -25,3 +25,8 @@ svg text {
   text-anchor: middle;
   dominant-baseline: middle;
 }
+
+a:hover {
+  color: #fcb72b;
+  transition: 300ms;
+}
