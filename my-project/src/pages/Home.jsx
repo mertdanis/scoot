@@ -7,7 +7,7 @@ function Home() {
     <div>
       <Hero />
 
-      <div className="flex  mt-[100px] mb-[200px] gap-[30px] ">
+      <div className="flex sm:flex-row flex-col  mt-[100px] mb-[200px] items-center justify-center gap-[30px] ">
         <ContentRow
           title={"Locate with app"}
           content={
@@ -30,7 +30,7 @@ function Home() {
           img={"group-10"}
         />
       </div>
-      <div className="flex  flex-col gap-[70px]  mb-[100px]">
+      <div className="flex sm:text-start text-center flex-col sm:gap-[70px] gap-[30px]  mb-[100px]">
         <ContentDirection
           direction={"left"}
           title={"Easy to use riding telemetry"}
@@ -41,7 +41,7 @@ function Home() {
         >
           <img className="rounded-full" src="/src/assets/imgs/telemetry.jpg" />
           <img
-            className="absolute -right-[200px] bottom-[38px]"
+            className="sm:absolute hidden -right-[200px] bottom-[38px]"
             src="/src/assets/patterns/left-downward-arrow.svg"
           />{" "}
         </ContentDirection>
@@ -55,7 +55,7 @@ function Home() {
         >
           <img className="rounded-full" src="/src/assets/imgs/near-you.jpg" />
           <img
-            className="absolute top-0 -left-[200px]"
+            className="sm:absolute hidden top-0 -left-[200px]"
             src="/src/assets/patterns/right-arrow.svg"
             alt=""
           />
@@ -70,7 +70,7 @@ function Home() {
         >
           <img className="rounded-full" src="/src/assets/imgs/payments.jpg" />
           <img
-            className="absolute -right-[430px] bottom-[282px]"
+            className="sm:absolute hidden -right-[430px] bottom-[282px]"
             src="/src/assets/patterns/left-downward-arrow.svg"
             alt=""
           />

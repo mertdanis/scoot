@@ -10,7 +10,9 @@ function PageTitle({ title, page }) {
         backgroundImage: `${page === "about" ? `url(${bg2}` : `url(${bg1}`} )`,
       }}
     >
-      <h1 className="text-h1 text-white py-[72px] px-[165px]">{title}</h1>
+      <h1 className="sm:text-h1 flex justify-center py-[60px] text-h3 text-white sm:py-[72px] sm:px-[165px]">
+        {title}
+      </h1>
     </div>
   );
 }

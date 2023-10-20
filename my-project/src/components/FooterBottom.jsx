@@ -1,7 +1,7 @@
 function FooterBottom() {
   return (
-    <div className="flex justify-between py-[35px] px-[165px] bg-footer_bottom">
-      <div className="flex items-center gap-[50px]">
+    <div className="flex sm:justify-between py-[60px] justify-center  sm:py-[35px] sm:px-[165px] bg-footer_bottom">
+      <div className="flex flex-col items-center gap-[50px]">
         <a href="#">
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -18,7 +18,7 @@ function FooterBottom() {
             />
           </svg>
         </a>
-        <ul className="flex  gap-[32px] text-dim_grey">
+        <ul className="flex sm:flex-row flex-col sm:text-start text-center   sm:gap-[32px] gap-[16px] text-dim_grey">
           <li>
             <a href="#">About</a>
           </li>
@@ -29,7 +29,7 @@ function FooterBottom() {
           <li></li>
         </ul>
       </div>
-      <div className="flex items-center gap-6 h-[24px]">
+      {/* <div className="flex items-center gap-6 h-[24px]">
         <a href="#">
           <img src="/src/assets/icons/facebook.svg" alt="facebook-logo" />
         </a>
@@ -39,7 +39,7 @@ function FooterBottom() {
         <a href="">
           <img src="/src/assets/icons/instagram.svg" alt="instagram-logo" />
         </a>
-      </div>
+      </div> */}
     </div>
   );
 }

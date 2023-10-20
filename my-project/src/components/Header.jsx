@@ -8,9 +8,22 @@ import Button from "../components/Button";
 
 function Header() {
   return (
-    <nav>
+    <nav className="bg-white sm:w-auto w-[375px] sm:h-auto h-[64px]">
       <ul className="flex  py-[35px] px-[169px] justify-between items-center  text-white  ">
-        <div className="flex items-center ">
+        <div className="sm:hidden block">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="20"
+            height="16"
+            viewBox="0 0 20 16"
+            fill="none"
+          >
+            <rect width="19.6923" height="3.69231" fill="#FCB72B" />
+            <rect y="6.15381" width="19.6923" height="3.69231" fill="#FCB72B" />
+            <rect y="12.3077" width="19.6923" height="3.69231" fill="#FCB72B" />
+          </svg>
+        </div>
+        <div className="flex items-center  ">
           <NavLink className="mr-[50px]">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -27,14 +40,14 @@ function Header() {
               />
             </svg>
           </NavLink>
-          <div className="flex gap-[32px] text-dim_grey font-space-mono">
+          <div className=" gap-[32px] text-dim_grey font-space-mono hidden sm:flex ">
             <NavLink to="/about">About</NavLink>
             <NavLink to="/location">Location</NavLink>
             <NavLink to="/careers">Careers</NavLink>
           </div>
         </div>
 
-        <Button>Get Scootin</Button>
+        <Button className={"hidden sm:block"}>Get Scootin</Button>
       </ul>
     </nav>
   );

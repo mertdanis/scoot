@@ -4,7 +4,6 @@ import ContentDirection from "../components/ContentDirection";
 import ContentCol from "../components/ContentCol";
 import SectionTitle from "../components/MainTitle";
 import Accordion from "../components/Accordion";
-import Loader from "../components/Loader";
 
 function about() {
   return (
@@ -24,7 +23,7 @@ function about() {
             src="/src/assets/imgs/digital-era.jpg"
           />
           <img
-            className="absolute bottom-[38px] -right-[200px]"
+            className="sm:absolute hidden bottom-[38px] -right-[200px]"
             src="/src/assets/patterns/left-upward-arrow.svg"
           />
         </ContentDirection>
@@ -42,7 +41,7 @@ function about() {
             src="/src/assets/imgs/better-living.jpg"
           />
           <img
-            className="absolute top-[60px] -left-[200px]"
+            className="sm:absolute hidden top-[60px] -left-[200px]"
             src="/src/assets/patterns/right-arrow.svg"
           />
         </ContentDirection>

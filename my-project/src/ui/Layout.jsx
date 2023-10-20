@@ -13,7 +13,7 @@ function Layout() {
   return (
     <div>
       <Header />
-      <main className="px-[165px] ">
+      <main className="sm:px-[165px] px-[32px] ">
         <Outlet />
       </main>
       <FooterTop />

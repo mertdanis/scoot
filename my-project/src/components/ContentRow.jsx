@@ -2,7 +2,7 @@ import React from "react";
 
 function ContentRow({ title, content, img }) {
   return (
-    <div className=" ">
+    <div className="flex flex-col sm:items-start items-center justify-center sm:text-start text-center  ">
       {img === "group-8" ? (
         <svg
           xmlns="http://www.w3.org/2000/svg"
