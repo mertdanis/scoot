@@ -7,13 +7,16 @@ import Careers from "./pages/Careers";
 import Home from "./pages/Home";
 
 import Layout from "./ui/Layout";
+import Loader from "./components/Loader";
 
 const router = createBrowserRouter([
   {
     element: <Layout />,
+
     children: [
       {
         path: "/",
+        index,
         element: <Home />,
       },
       {

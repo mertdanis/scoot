@@ -4,12 +4,12 @@ import ContentDirection from "../components/ContentDirection";
 import ContentCol from "../components/ContentCol";
 import SectionTitle from "../components/MainTitle";
 import Accordion from "../components/Accordion";
+import Loader from "../components/Loader";
 
 function about() {
   return (
     <div>
       <PageTitle title={"About"} page={"about"} />
-
       <div className="my-[70px] flex flex-col gap-[70px]">
         <ContentDirection
           direction={"left"}
