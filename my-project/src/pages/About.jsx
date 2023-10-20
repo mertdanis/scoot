@@ -163,13 +163,13 @@ function about() {
           <div className="flex gap-[250px] ">
             <SectionTitle title={"How it works"} />
             <div>
-              <Accordion section={"1"} />
+              <Accordion section={1} />
             </div>
           </div>
           <div className="flex gap-[250px]">
             <SectionTitle title={"Safe driving"} />
             <div>
-              <Accordion section={"2"} />
+              <Accordion section={2} />
             </div>
           </div>
         </div>

@@ -51,9 +51,9 @@ function Accordion({ section }) {
     },
   ]);
 
-  const handleToggleClick = (id) => {
+  const handleToggleClick = (question) => {
     const updateState = questions.map((obj, i) => {
-      if (i == id) {
+      if (question == obj) {
         return { ...obj, isOpen: !obj.isOpen };
       }
 
@@ -63,58 +63,119 @@ function Accordion({ section }) {
     setQuestions(updateState);
   };
 
-  return questions.map((question, id) => {
-    return (
-      <>
-        {question.section === 1 ? (
-          <div className="bg-snow mb-6 px-[40px] py-[32px] flex flex-col gap-6 w-[730px]">
-            <div className="flex items-center justify-between">
-              <h4 className="text-h4">{question.title}</h4>
-              <div className="cursor-pointer"></div>
-
-              <div
-                onClick={() => handleToggleClick(id)}
-                className="cursor-pointer"
-              >
-                {question.isOpen ? (
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="18"
-                    height="13"
-                    viewBox="0 0 18 13"
-                    fill="none"
-                  >
-                    <path
-                      d="M2 11L10 3L18 11"
-                      stroke="#FCB72B"
-                      stroke-width="3"
-                    />
-                  </svg>
-                ) : (
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="18"
-                    height="13"
-                    viewBox="0 0 18 13"
-                    fill="none"
-                  >
-                    <path
-                      d="M2 2L10 10L18 2"
-                      stroke="#FCB72B"
-                      stroke-width="3"
-                    />
-                  </svg>
-                )}
-              </div>
-            </div>
-            {question.isOpen ? <p>{question.answer}</p> : ""}
-          </div>
-        ) : (
-          ""
-        )}
-      </>
-    );
+  const questions1 = questions.filter((question) => {
+    if (question.section === 1) {
+      return question;
+    }
   });
+
+  const questions2 = questions.filter((question) => {
+    if (question.section === 2) {
+      return question;
+    }
+  });
+
+  return (
+    <>
+      {section === 1
+        ? questions1.map((question, id) => {
+            return (
+              <>
+                <div className="bg-snow mb-6 px-[40px] py-[32px] flex flex-col gap-6 w-[730px]">
+                  <div className="flex items-center justify-between">
+                    <h4 className="text-h4">{question.title}</h4>
+
+                    <div
+                      onClick={() => handleToggleClick(question, id)}
+                      className="cursor-pointer"
+                    >
+                      {question.isOpen ? (
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="18"
+                          height="13"
+                          viewBox="0 0 18 13"
+                          fill="none"
+                        >
+                          <path
+                            d="M2 11L10 3L18 11"
+                            stroke="#FCB72B"
+                            stroke-width="3"
+                          />
+                        </svg>
+                      ) : (
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="18"
+                          height="13"
+                          viewBox="0 0 18 13"
+                          fill="none"
+                        >
+                          <path
+                            d="M2 2L10 10L18 2"
+                            stroke="#FCB72B"
+                            stroke-width="3"
+                          />
+                        </svg>
+                      )}
+                    </div>
+                  </div>
+                  {question.isOpen ? <p>{question.answer}</p> : ""}
+                </div>
+              </>
+            );
+          })
+        : questions2.map((question, id) => {
+            return (
+              <>
+                <div className="bg-snow mb-6 px-[40px] py-[32px] flex flex-col gap-6 w-[730px]">
+                  <div className="flex items-center justify-between">
+                    <h4 className="text-h4">{question.title}</h4>
+
+                    <div
+                      onClick={() => handleToggleClick(question, id)}
+                      className="cursor-pointer"
+                    >
+                      {question.isOpen ? (
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="18"
+                          height="13"
+                          viewBox="0 0 18 13"
+                          fill="none"
+                        >
+                          <path
+                            d="M2 11L10 3L18 11"
+                            stroke="#FCB72B"
+                            stroke-width="3"
+                          />
+                        </svg>
+                      ) : (
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="18"
+                          height="13"
+                          viewBox="0 0 18 13"
+                          fill="none"
+                        >
+                          <path
+                            d="M2 2L10 10L18 2"
+                            stroke="#FCB72B"
+                            stroke-width="3"
+                          />
+                        </svg>
+                      )}
+                    </div>
+                  </div>
+                  {question.isOpen ? <p>{question.answer}</p> : ""}
+                </div>
+              </>
+            );
+          })}
+    </>
+  );
+
+  return;
 }
 
 export default Accordion;
