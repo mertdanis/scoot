@@ -8,8 +8,8 @@ import Button from "../components/Button";
 
 function Header() {
   return (
-    <nav className="bg-white sm:w-auto w-[375px] sm:h-auto h-[64px]">
-      <ul className="flex  py-[35px] px-[169px] justify-between items-center  text-white  ">
+    <nav className="bg-white    sm:h-auto h-[64px]">
+      <ul className="flex  sm:py-[35px] sm:px-[169px] sm:justify-between sm:items-center items-center justify-between py-[14px] px-[32px]  text-white  ">
         <div className="sm:hidden block">
           <svg
             xmlns="http://www.w3.org/2000/svg"

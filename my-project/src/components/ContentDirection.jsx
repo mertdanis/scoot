@@ -5,11 +5,13 @@ function ContentDirection({ title, content, direction, children, button }) {
     <>
       {direction === "left" ? (
         <div className="flex  sm:flex-row flex-col   relative ">
-          <div className="block sm:hidden mb-6">{children}</div>
-          <div className="flex  items-center ">
-            <div className="flex flex-col gap-6">
-              <h2 className=" sm:text-h2 text-[32px] sm:w-[45%]">{title}</h2>
-              <p className="sm:w-[45%]">{content}</p>
+          <div className="block  sm:hidden mb-6">{children}</div>
+          <div className="flex   ">
+            <div className="flex items-center flex-col gap-6">
+              <h2 className=" sm:text-h2 text-center w-[80%] text-[32px] sm:w-[45%]">
+                {title}
+              </h2>
+              <p className="sm:w-[45%] text-center ">{content}</p>
               {button ? (
                 <div className="w-[180px]">
                   <Button>Learn More</Button>
@@ -25,9 +27,11 @@ function ContentDirection({ title, content, direction, children, button }) {
         <div className="flex sm:flex-row flex-col justify-between   relative    items-center">
           <div className="my-6">{children}</div>
 
-          <div className="flex  flex-col sm:w-[30%]  gap-6">
-            <h2 className=" sm:text-h2 text-[32px] ">{title}</h2>
-            <p className="">{content}</p>
+          <div className="flex items-center flex-col sm:w-[30%]  gap-6">
+            <h2 className=" sm:text-h2 text-center w-[80%] text-[32px] ">
+              {title}
+            </h2>
+            <p className="text-center">{content}</p>
             {button ? (
               <div className="w-[180px]">
                 <Button>Learn More</Button>

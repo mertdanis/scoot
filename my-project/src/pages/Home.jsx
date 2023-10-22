@@ -7,7 +7,7 @@ function Home() {
     <div>
       <Hero />
 
-      <div className="flex sm:flex-row flex-col  mt-[100px] mb-[200px] items-center justify-center gap-[30px] ">
+      <div className="flex sm:flex-row flex-col  my-[100px] sm:mb-[200px]  items-center justify-center gap-[30px] ">
         <ContentRow
           title={"Locate with app"}
           content={
@@ -30,7 +30,7 @@ function Home() {
           img={"group-10"}
         />
       </div>
-      <div className="flex sm:text-start text-center flex-col sm:gap-[70px] gap-[30px]  mb-[100px]">
+      <div className="flex sm:text-start text-center flex-col sm:gap-[70px] gap-[50px]  mb-[100px]">
         <ContentDirection
           direction={"left"}
           title={"Easy to use riding telemetry"}
@@ -62,7 +62,7 @@ function Home() {
         </ContentDirection>
         <ContentDirection
           direction={"left"}
-          title={"Easy to use riding telemetry"}
+          title={"Zero hassle payments"}
           content={
             "Our payment is as easy as one two three. We accept most credit cards and debit cards. You can also link your PayPal account inside the app. Need to pay later? No worries! You can defer payment for up to a month."
           }
